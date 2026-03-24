@@ -1,84 +1,112 @@
-# ♾️ Infinite Learning
+# infinite-learning
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Tech Stack: Docker](https://img.shields.io/badge/Tech-Docker-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
-[![Status: Active](https://img.shields.io/badge/Status-Active-2ea44f)](https://github.com)
-[![Update: Continuous](https://img.shields.io/badge/Update-Continuous-ff69b4)](https://github.com)
+<div align="center">
 
-> 学无止境，行则将至。这里是我的个人技术学习笔记与知识沉淀仓库，记录着在技术海洋中探索的每一步。
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&pause=1000&color=4FD1C5&center=true&vCenter=true&width=435&lines=%E7%99%BB%E9%87%8F%E4%B8%8D%E6%AD%A2%EF%BC%8C%E5%AD%A6%E4%B9%A0%E6%98%AF%E4%B8%80%E7%94%9F%E7%9A%84%E4%BA%8B%E5%8A%A8)](https://git.io/typing-svg)
+
+[![GitHub stars](https://img.shields.io/github/stars/Yehaikun/infinite-learning)](https://github.com/Yehaikun/infinite-learning/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Yehaikun/infinite-learning)](https://github.com/Yehaikun/infinite-learning/network)
+[![License](https://img.shields.io/github/license/Yehaikun/infinite-learning)](https://github.com/Yehaikun/infinite-learning/blob/main/LICENSE)
+[![更新](https://img.shields.io/badge/%E6%9B%B4%E6%96%B0-%E5%8D%88%E5%8A%A8%E6%9C%89%E6%96%B0-orange)](https://github.com/Yehaikun/infinite-learning/commits/main)
+
+</div>
 
 ---
 
-## 📖 简介
-
-本仓库旨在系统性地记录我学习各种技术栈的过程、实践经验和最佳实践。从基础概念到进阶用法，从理论笔记到实战代码，力求构建一份清晰、实用、可复用的知识库。
+> 📝 个人技术学习笔记与知识沉淀仓库，记录各种技术栈的学习过程、实践经验和最佳实践。
 
 ---
 
 ## 📚 学习目录
 
-> 知识体系持续构建中，点击链接即可开始学习。
+### 🐳 容器化与虚拟化
 
-### 🐳 Docker
+| 分类 | 描述 | 状态 |
+|------|------|------|
+| [Docker](./docker/) | 容器引擎 | ✅ 已完成 |
+| [Docker Compose](./docker/docker-compose/) | 多容器编排 | ✅ 已完成 |
+| [Docker Swarm](./docker/swarm/) | 集群编排 | ✅ 已完成 |
 
-容器化技术的核心实践，分为两个子模块：
+#### Docker 学习笔记
 
-#### 1. Dockerfile 学习笔记
-
-| 文档 | 描述 |
-|:---|:---|
-| [📝 01. Docker 概念与安装](docker/dockerfile/01-Docker-概念与安装.md) | Docker 基础概念、安装与配置 |
-| [📝 02. Dockerfile 基础](docker/dockerfile/02-Dockerfile基础.md) | Dockerfile 基本语法与使用 |
-| [📝 03. Dockerfile 指令详解 (实践版)](docker/dockerfile/03-Dockerfile指令详解-实践版.md) | 每条指令的详细用法与实践 |
-| [📝 04. 构建上下文与多阶段构建 (实践版)](docker/dockerfile/04-构建上下文与多阶段构建-实践版.md) | 高级构建技巧与优化 |
-| [📖 Dockerfile 完整手册](docker/dockerfile/Dockerfile-完整手册.md) | 全面参考手册 |
-| [🗺️ Dockerfile 学习指引](docker/dockerfile/Dockerfile-学习指引.md) | 学习路线图与建议 |
-
-#### 2. Docker Compose 学习笔记
-
-| 文档 | 描述 |
-|:---|:---|
-| [📝 01. Docker Compose 概念与安装](docker/docker-compose/01-DockerCompose-概念与安装.md) | Compose 简介与安装 |
-| [📝 02. Docker Compose YAML 编写详解](docker/docker-compose/02-DockerCompose-YAML编写详解.md) | YAML 配置全面解析 |
-| [📝 03. Docker Compose 网络与存储](docker/docker-compose/03-DockerCompose-网络与存储.md) | 网络与数据卷配置 |
-| [📝 04. Docker Compose 实战与最佳实践](docker/docker-compose/04-DockerCompose-实战与最佳实践.md) | 真实场景应用与优化 |
-| [🗺️ Docker Compose 学习路径](docker/docker-compose/docker-compose-learning-path.md) | 完整学习路线 |
-
----
-
-### 🚧 计划添加的技术领域
-
-| 技术领域 | 状态 | 规划内容 |
-|:---|:---:|:---|
-| **☸️ Kubernetes** | 🚧 持续更新中 | 核心概念、Pod、Service、部署与运维 |
-| **🐧 Linux** | 📅 规划中 | 基础命令、文件系统、网络配置、性能调优 |
-| **🌐 网络** | 📅 规划中 | OSI 模型、TCP/IP、HTTP、负载均衡 |
-| **🗄️ 数据库** | 📅 规划中 | MySQL/PostgreSQL 基础、索引优化、事务与锁 |
-| **☁️ 云原生** | 📅 规划中 | 服务网格、Serverless、可观测性 |
-| **🛠️ Git** | 📅 规划中 | 工作流、高级操作、问题排查 |
+```
+docker/
+├── dockerfile/              # Dockerfile 系列
+│   ├── 01-Docker-概念与安装.md
+│   ├── 02-Dockerfile基础.md
+│   ├── 03-Dockerfile指令详解-实践版.md
+│   ├── 04-构建上下文与多阶段构建-实践版.md
+│   ├── Dockerfile-完整手册.md
+│   └── Dockerfile-学习指引.md
+│
+└── docker-compose/          # Docker Compose 系列
+    ├── 01-DockerCompose-概念与安装.md
+    ├── 02-DockerCompose-YAML编写详解.md
+    ├── 03-DockerCompose-网络与存储.md
+    ├── 04-DockerCompose-实战与最佳实践.md
+    └── docker-compose-learning-path.md
+```
 
 ---
 
-## 📖 学习指引
+### ☁️ 云原生与微服务
 
-为了获得最佳的学习体验，建议按照以下路径进行：
+| 分类 | 描述 | 状态 |
+|------|------|------|
+| [Kubernetes](./k8s/) | 容器编排 | 🚧 规划中 |
+| [Spring Cloud](./spring-cloud/) | 微服务框架 | 🚧 规划中 |
+| [Nacos](./nacos/) | 注册/配置中心 | 🚧 规划中 |
 
-### 建议学习顺序
+---
 
-1. **夯实基础**：从 **Docker** 开始，掌握容器化技术的核心概念和使用方法。
-2. **分而治之**：
-   - 先学习 **Dockerfile** 模块，了解如何构建自定义镜像
-   - 再学习 **Docker Compose** 模块，学习如何编排和管理多容器应用
-3. **迈向进阶**：在掌握 Docker 之后，继续学习后续添加的 **Kubernetes**、**Linux** 等进阶内容。
+### 🛠️ 基础工具
 
-### 每个模块的学习目标
+| 分类 | 描述 | 状态 |
+|------|------|------|
+| [Git & GitHub](./tools/github/) | 版本控制 | 🚧 规划中 |
+| [Linux](./linux/) | 操作系统 | 🚧 规划中 |
+| [Nginx](./nginx/) | Web 服务器 | 🚧 规划中 |
 
-| 模块 | 学习目标 |
-|:---|:---|
-| **Dockerfile** | 能够编写生产级别的 Dockerfile，理解镜像分层、构建上下文和多阶段构建 |
-| **Docker Compose** | 能够使用 YAML 文件定义复杂应用栈，熟练进行部署、调试和管理 |
-| **Kubernetes** | 掌握容器编排核心概念，能够部署和管理分布式应用 |
-| **Linux** | 熟悉常用命令和系统管理，具备问题排查能力 |
+---
+
+### 💾 数据库与缓存
+
+| 分类 | 描述 | 状态 |
+|------|------|------|
+| [MySQL](./database/mysql/) | 关系型数据库 | 🚧 规划中 |
+| [Redis](./database/redis/) | 缓存数据库 | 🚧 规划中 |
+| [MongoDB](./database/mongodb/) | 文档数据库 | 🚧 规划中 |
+
+---
+
+### 🌐 网络与安全
+
+| 分类 | 描述 | 状态 |
+|------|------|------|
+| [计算机网络](./network/) | 网络基础 | 🚧 规划中 |
+| [HTTP/HTTPS](./network/http/) | 协议 | 🚧 规划中 |
+| [TLS/SSL](./network/tls/) | 安全传输 | 🚧 规划中 |
+
+---
+
+## 🚀 学习指引
+
+### 推荐的入门路径
+
+```
+Docker 基础 ────→ Docker Compose ────→ Docker Swarm
+     │                 │                  │
+     ▼                 ▼                  ▼
+  镜像构建         多容器管理           集群部署
+```
+
+### 各模块学习目标
+
+| 模块 | 目标 |
+|------|------|
+| Docker | 掌握容器构建与运行 |
+| Docker Compose | 熟练编排多容器应用 |
+| Docker Swarm | 理解集群部署与运维 |
 
 ---
 
@@ -87,4 +115,80 @@
 ### 克隆仓库
 
 ```bash
-git clone https://github.com/[YourUsername]/infinite-learning.git
+# HTTPS
+git clone https://github.com/Yehaikun/infinite-learning.git
+
+# SSH
+git clone git@github.com:Yehaikun/infinite-learning.git
+```
+
+### 浏览笔记
+
+推荐使用 VS Code + Markdown Preview 插件，或使用 Typora、Notion 等工具阅读。
+
+---
+
+## 📋 目录结构
+
+```
+infinite-learning/
+│
+├── docker/                    # Docker 系列
+│   ├── dockerfile/
+│   ├── docker-compose/
+│   └── swarm/
+│
+├── k8s/                      # Kubernetes（规划中）
+├── spring-cloud/             # Spring Cloud（规划中）
+├── tools/                    # 工具教程（规划中）
+│   └── github/
+├── linux/                    # Linux（规划中）
+├── database/                 # 数据库（规划中）
+├── network/                  # 网络（规划中）
+│
+├── papers/                   # 论文笔记
+├── notes/                    # 学习笔记
+│   └── tutorials/
+│
+├── templates/                # 模板
+├── backups/                  # 备份
+│
+├── LICENSE                   # 许可证
+└── README.md                 # 本文件
+```
+
+---
+
+## 🤝 贡献指南
+
+这是**个人学习笔记仓库**，主要用于自我知识沉淀。
+
+- ❌ 不对外开放贡献（PR）
+- ✅ 欢迎 Star ⭐ 和 Fork
+- ✅ 欢迎 Issue 交流学习心得
+- ✅ 如果有错误，欢迎指出
+
+> 💡 如果你对我正在学习的技术感兴趣，可以一起交流学习！
+
+---
+
+## 📅 更新日志
+
+- **2024-03** - Docker 系列笔记整理完成
+- 持续更新中...
+
+---
+
+## ⭐ 感谢支持
+
+如果你觉得这个仓库对你有帮助，欢迎点个 ⭐star⭐！
+
+<div align="center">
+
+[![Stargazers over time](https://starchart.cc/Yehaikun/infinite-learning.svg)](https://github.com/Yehaikun/infinite-learning/stargazers)
+
+---
+
+Made with ❤️ by [Yehaikun](https://github.com/Yehaikun)
+
+</div>
