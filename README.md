@@ -2,8 +2,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=35&pause=1000&color=gradient&gradient=rainbow&center=true&vCenter=true&width=500&height=45&lines=%E7%99%BB%E9%87%8F%E4%B8%8D%E6%AD%A2%EF%BC%8C%E5%AD%A6%E4%B9%A0%E6%98%AF%E4%B8%80%E7%94%9F%E7%9A%84%E4%BA%8B%E5%8A%A8)](https://git.io/typing-svg)
-
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=35&pause=1000&color=gradient&gradient=rainbow&center=true&vCenter=true&width=500&height=45&lines=%E7%99%BB%E9%87%8F%E4%B8%8D%E6%AD%A2%EF%BC%8C%E5%AD%A6%E4%B9%A0%E6%98%AF%E4%B8%80%E7%94%9F%E7%9A%84%E4%BA%8B%E5%8A%A8" alt="Typing SVG" />
 
 [![GitHub stars](https://img.shields.io/github/stars/Yehaikun/infinite-learning)](https://github.com/Yehaikun/infinite-learning/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Yehaikun/infinite-learning)](https://github.com/Yehaikun/infinite-learning/network)
@@ -184,12 +183,6 @@ infinite-learning/
 
 如果你觉得这个仓库对你有帮助，欢迎点个 ⭐star⭐！
 
-<div align="center">
-
-[![Stargazers over time](https://starchart.cc/Yehaikun/infinite-learning.svg)](https://github.com/Yehaikun/infinite-learning/stargazers)
-
 ---
 
 Made with ❤️ by [Yehaikun](https://github.com/Yehaikun)
-
-</div>
