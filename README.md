@@ -2,7 +2,8 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&pause=1000&center=true&vCenter=true&width=500&height=70&lines=登量不止，学习是一生的事动;第二行文字;第三行文字&color=FF6B6B&color=4ECDC4&color=FFE66D)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&pause=1000&center=true&vCenter=true&width=500&height=70&lines=登量不止，学习是一生的事动&color=gradient)](https://git.io/typing-svg)
+
 
 [![GitHub stars](https://img.shields.io/github/stars/Yehaikun/infinite-learning)](https://github.com/Yehaikun/infinite-learning/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Yehaikun/infinite-learning)](https://github.com/Yehaikun/infinite-learning/network)
