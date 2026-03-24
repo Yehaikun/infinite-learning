@@ -2,7 +2,9 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=35&pause=1000&color=gradient&gradient=rainbow&center=true&vCenter=true&width=500&height=45&lines=%E7%99%BB%E9%87%8F%E4%B8%8D%E6%AD%A2%EF%BC%8C%E5%AD%A6%E4%B9%A0%E6%98%AF%E4%B8%80%E7%94%9F%E7%9A%84%E4%BA%8B%E5%8A%A8" alt="Typing SVG" />
+<h3>
+<span style="color: #FF6B6B">登</span><span style="color: #FF8E53">入</span><span style="color: #FFD93D">不</span><span style="color: #6BCB77">止</span><span style="color: #4D96FF">，</span><span style="color: #A76DFF">学</span><span style="color: #FF85A1">习</span><span style="color: #4FD1C5">是</span><span style="color: #FF6B6B">一</span><span style="color: #FF8E53">生</span><span style="color: #FFD93D">的</span><span style="color: #6BCB77">事</span>
+</h3>
 
 [![GitHub stars](https://img.shields.io/github/stars/Yehaikun/infinite-learning)](https://github.com/Yehaikun/infinite-learning/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Yehaikun/infinite-learning)](https://github.com/Yehaikun/infinite-learning/network)
